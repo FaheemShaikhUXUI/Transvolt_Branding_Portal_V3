@@ -1,5 +1,6 @@
 {
-  "buildCommand": "turbo build --filter=web",
+  "buildCommand": "cd apps/web && npx vite build",
   "outputDirectory": "apps/web/dist",
-  "framework": "vite"
+  "installCommand": "pnpm install",
+  "framework": null
 }
